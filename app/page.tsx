@@ -1,3 +1,4 @@
+import LoginPage from "./components/LoginPage";
 import LongestConsecutives from "./components/LongestConsecutives";
 import SearchFilter from "./components/SearchFilter";
 import UserLists from "./components/UserLists";
@@ -8,6 +9,7 @@ export default function Home() {
       <SearchFilter />
       <UserLists />
       <LongestConsecutives nums={[100, 4, 200, 1, 3, 2, 5, 6, 300]} />
+      <LoginPage />
     </div>
   );
 }
