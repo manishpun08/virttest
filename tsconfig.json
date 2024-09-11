@@ -12,6 +12,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "typeRoots": ["./node_modules/@types", "./types"],
     "plugins": [
       {
         "name": "next"
@@ -21,6 +22,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "countSmaller.js", "middleware.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "task5.js",
+    "middleware.js",
+    "components/UserLists.test.tsx"
+  ],
   "exclude": ["node_modules"]
 }
